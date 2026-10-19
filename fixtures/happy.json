@@ -1,0 +1,63 @@
+{
+ "clock_iso": "2026-10-19T15:00:00Z",
+ "clock_epoch": 1792422000,
+ "secret": "fixture-secret",
+ "listing": {
+  "agent_did": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+  "owner": "0x4c72F03Cf85bF261526AC383d6d2c076Eb72225b",
+  "offer_id": "lax-ext-09a02a90e441",
+  "revoked_at": null
+ },
+ "challenge": {
+  "agent_did": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+  "nonce": "nonce-0123456789abcdef",
+  "issued_at": "2026-10-19T14:59:30Z",
+  "expires_at": "2026-10-19T15:04:30Z",
+  "signature": "0xabababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+  "signer": "0x4c72F03Cf85bF261526AC383d6d2c076Eb72225b"
+ },
+ "trust_record": {
+  "age_days": 200,
+  "completed_jobs": 12,
+  "disputes_lost": 0,
+  "tested_deliveries": 6
+ },
+ "declarations": [
+  {
+   "skill_id": "offer-review",
+   "max_price_usdc": 5,
+   "rail": "x402"
+  }
+ ],
+ "intent": {
+  "skill_id": "offer-review",
+  "price_usdc": 3.5,
+  "rail": "x402"
+ },
+ "soul": {
+  "agent_did": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+  "sha256": "e2a8f594e846f01300e655cc1c8f00bf313c401556d8d483eff470c2a63dd72a",
+  "laws": [
+   "Solidarity Oath",
+   "Renewal Mandate",
+   "Treasury Equilibrium",
+   "Harm Shield",
+   "Transparency Covenant"
+  ]
+ },
+ "handshake": {
+  "agent_did": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+  "soul_sha256": "e2a8f594e846f01300e655cc1c8f00bf313c401556d8d483eff470c2a63dd72a",
+  "nonce": "nonce-0123456789abcdef",
+  "echoed_nonce": "nonce-0123456789abcdef"
+ },
+ "session": {
+  "claims": {
+   "agent_did": "did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH",
+   "offer_id": "lax-ext-09a02a90e441",
+   "issued_at": 1792422000,
+   "expires_at": 1792422900
+  },
+  "mac": "96aee517"
+ }
+}
